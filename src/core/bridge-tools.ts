@@ -2038,6 +2038,7 @@ return {
 								transport: connector.getTransportType(),
 								fileKey: result?.fileKey ?? null,
 								fileName: result?.fileName ?? null,
+								editorType: result?.editorType ?? null,
 								currentPage: result?.currentPage ?? null,
 								selectionCount: result?.selectionCount ?? 0,
 							}),
